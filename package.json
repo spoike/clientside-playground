@@ -1,0 +1,20 @@
+{
+  "name": "clientside-playground",
+  "version": "0.0.0",
+  "description": "A simple starter project for client-side HTML/CSS/Javascript",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mikael Brassman",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "~0.5.0",
+    "matchdep": "~0.1.2",
+    "grunt-open": "~0.2.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-jshint": "~0.7.2"
+  }
+}

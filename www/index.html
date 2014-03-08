@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>My Prototype</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="scripts/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+    </head>
+    <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">My Prototype</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>Here be an awesome title!</h1>
+          <p id="myOutput">RequireJS javascript <strong style="color: red;">hasn't loaded yet</strong>.</p>
+
+          <div id="myButton" class="btn-group" style="display: none;">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+              Oh look, a Bootstrap button! <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="javascript:void(0)">If you can see this then Bootstrap JS is properly loaded</a></li>
+              <li class="divider"></li>
+              <li><a href="javascript:void(0)">Aw yeah!</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>Here be some copyright text</p>
+      </footer>
+      
+      <script data-main="scripts/main.js" src="scripts/lib/require2.1.8.js"></script>
+    </div>   
+    </body>
+</html>
